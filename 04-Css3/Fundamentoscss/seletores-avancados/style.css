@@ -18,7 +18,7 @@ li::after {
   content: " (depois)";
 }
 
-elemento, respectivamente:
+/* elemento, respectivamente: */
 li:first-child {
     color: rgb(255, 174, 0);
 }
@@ -26,8 +26,7 @@ li:first-child {
 li:last-child {
     color: rgb(255, 0, 179);
 }
-
-o usamos para estilizar os filhos que não são o primeiro:
+/* o usamos para estilizar os filhos que não são o primeiro: */
 li:not(:first-child) {
     color: rgb(0, 255, 255);
 }
