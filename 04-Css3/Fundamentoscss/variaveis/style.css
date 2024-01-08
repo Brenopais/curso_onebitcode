@@ -19,12 +19,12 @@ section {
 }
 
 div {
-  --preenchimento-pq: 1rem;
-  background-color: var(--cor-principal);
-  color: var(--cor-claro);
-  padding: var(--preenchimento-pq);
+    --preenchimento-pq: 1rem;
+    background-color: var(--cor-principal);
+    color: var(--cor-claro);
+    padding: var(--preenchimento-pq);
 }
 
 .red-box {
-  --cor-principal: #f64348;
+    --cor-principal: #f64348;
 }
